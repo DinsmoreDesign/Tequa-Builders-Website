@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tequa Builders | Contact</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/parallax.js"></script>
+    
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/114x114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/72x72.png">
+    <link rel="apple-touch-icon-precomposed" href="img/57x57.png">
+    <link rel="shortcut icon" href="img/favicon.png">
+</head>
+<body>
+
+<!-- Navbar -->
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+            
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+            
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo-sm.png" alt="Tequa Builders Logo" class="img-responsive">
+                    </a>
+            </div>
+            
+            <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                    <a href="index.html"><button>Home</button></a>
+                    <a href="about.html"><button>About</button></a>
+                    <a href="services.html"><button>Services</button></a>
+                    <a href="contact.html"><button class="active">Contact</button></a>
+            </div>
+            
+        </div>
+    </nav>
+    
+<!-- Top Image -->
+    
+    <aside class="callout" id="imageheader-contact" data-speed="6" data-type="background">
+        <div class="text-vertical-center">
+            <h1 class="whitebox">Send us an email!</h1>
+        </div>
+    </aside>
+    
+<!-- Contact form -->
+    
+    <div class="orangebox">
+			<div class="container" id="infobox">
+				<div>
+						<form name="contactform" method="post" action="mailer.php" class="form-horizontal" role="form">
+							<div class="form-group">
+								<label for="name" class="col-sm-2 control-label">Name</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="email" class="col-sm-2 control-label">Email</label>
+								<div class="col-sm-10">
+									<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="message" class="col-sm-2 control-label">Message</label>
+								<div class="col-sm-10">
+									<textarea class="form-control" rows="12" id="message" name="message" placeholder="Your message..."></textarea>
+								</div>
+							</div>
+                            <div class="form-group">
+								<label for="human" class="col-sm-2 control-label">What is 2+3?</label>
+								<div class="col-sm-10">
+									<input type="text" class="form-control" id="human" name="human" placeholder="Answer">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-10 col-sm-offset-2">
+									<input id="submit" name="submit" type="submit" value="Submit" class="button">
+								</div>
+							</div>
+						</form>
+
+				</div>
+			</div>
+		</div>
+    
+<!-- Footer -->
+    
+    <footer class="graybox">
+        <div class="container" id="footer">
+            <div class="row">
+                <div class="col-xs-6 text-left">
+                    <p>© 2015
+                    <br>
+                    Tequa Builders, LLC.</p>
+                </div>
+                <div class="col-xs-6 text-right">
+                    <p>Website by
+                    <br>
+                    <a href="http://dinsmore-design.com/">Dinsmore Design</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
