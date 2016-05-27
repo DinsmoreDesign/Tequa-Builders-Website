@@ -13,13 +13,12 @@
   margin-bottom: 25px;
 }
 
-.navbar-inverse .navbar-toggle {
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
     border-color: #545454;
 }
 
-.navbar-inverse .navbar-toggle:hover,
-.navbar-inverse .navbar-toggle:focus {
-  background-color: #545454;
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #E56A24;
 }
 
 .navbar-collapse {
@@ -130,7 +129,9 @@ button {
 .callout h1 {
     /*text-shadow: 5px 5px #FFF;*/
     color: #545454;
-    font-size: 40px;
+    font-size: 7vmin;
+    //IE9 Fix:
+        font-size: 7vm;
     padding: 20px;
     font-weight: 700;
 }
@@ -156,7 +157,7 @@ button {
 #imageheader-home { 
     background: url(../img/homepage.jpg) no-repeat center center fixed;
     background-size: cover;
-    height: 600px;  
+    height: 100vh;  
     margin: 0 auto; 
     width: 100%; 
     position: relative; 
@@ -166,7 +167,7 @@ button {
 #imageheader-about { 
     background: url(../img/bedroom.jpg) no-repeat center center fixed;
     background-size: cover;
-    height: 600px;  
+    height: 100vh;  
     margin: 0 auto; 
     width: 100%; 
     position: relative; 
@@ -176,7 +177,7 @@ button {
 #imagecenter-about { 
     background: url(../img/bedroom.jpg) no-repeat center center fixed;
     background-size: cover;
-    height: 400px;  
+    height: 50vh;  
     margin: 0 auto; 
     width: 100%; 
     position: relative; 
@@ -186,7 +187,7 @@ button {
 #imageheader-services { 
     background: url(../img/kitchen-w.jpg) no-repeat center center fixed;
     background-size: cover;
-    height: 600px;  
+    height: 100vh;  
     margin: 0 auto; 
     width: 100%; 
     position: relative; 
@@ -196,7 +197,7 @@ button {
 #imagecenter-services { 
     background: url(../img/kitchen-w.jpg) no-repeat center center fixed;
     background-size: cover;
-    height: 400px;  
+    height: 50vh;  
     margin: 0 auto; 
     width: 100%; 
     position: relative; 
@@ -205,7 +206,7 @@ button {
 
 #imageheader-contact { 
     background: url(../img/sunset.jpg) 50% 0 fixed; 
-    height: 600px;  
+    height: 60vh;  
     margin: 0 auto; 
     width: 100%; 
     position: relative; 

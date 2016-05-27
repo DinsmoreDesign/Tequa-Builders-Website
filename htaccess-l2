@@ -1,20 +1,8 @@
-# Created by http://htaccessbuilder.com/
-# Edit at http://htaccessbuilder.com/rules/55ca5018484b4/
-# Tue, 11th August 2015
-<IfModule mod_rewrite.c>
 
-# Redirect index.php to /
-RewriteCond %{QUERY_STRING} ^$
-RewriteCond %{REQUEST_METHOD} !^POST$
-RewriteRule ^index\.php$ / [R=301,L]
-
-# Redirect from www.
-RewriteCond %{HTTP_HOST} ^www.domain.com$
-RewriteRule (.*) http://domain.com/$1 [R=301,L] 
-
-# Redirect Urls (Permanent)
-
-</IfModule>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^paniolobuilders\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.paniolobuilders\.com$
+RewriteRule ^/?$ "http\:\/\/tequabuilders\.com\/" [R=301,L]
 
 ## GZIP COMPRESSION ##
 
