@@ -27,16 +27,16 @@
                     <span class="icon-bar"></span>                        
                 </button>
             
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index">
                         <img src="img/logo-sm.png" alt="Tequa Builders Logo" class="img-responsive">
                     </a>
             </div>
             
             <div class="collapse navbar-collapse navbar-right" id="myNavbar">
-                    <a href="index.html"><button class="active">Home</button></a>
-                    <a href="about.html"><button>About</button></a>
-                    <a href="services.html"><button>Services</button></a>
-                    <a href="contact.php"><button>Contact</button></a>
+                    <a href="index"><button class="active">Home</button></a>
+                    <a href="about-us"><button>About</button></a>
+                    <a href="services"><button>Services</button></a>
+                    <a href="contact"><button>Contact</button></a>
             </div>
             
         </div>
@@ -66,7 +66,7 @@
                     construction, construction management and remodeling ...
                     </p>
                     <h3 style="padding-bottom: 15px">No job is too small!</h3>
-                    <a href="contact.php"><button>Get a quote today!</button></a>
+                    <a href="contact"><button>Get a quote today!</button></a>
                 </div>
             </div>
         </div>

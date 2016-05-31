@@ -28,16 +28,16 @@
                     <span class="icon-bar"></span>                        
                 </button>
             
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index">
                         <img src="img/logo-sm.png" alt="Tequa Builders Logo" class="img-responsive">
                     </a>
             </div>
             
             <div class="collapse navbar-collapse navbar-right" id="myNavbar">
-                    <a href="index.html"><button>Home</button></a>
-                    <a href="about.html"><button>About</button></a>
-                    <a href="services.html"><button class="active">Services</button></a>
-                    <a href="contact.php"><button>Contact</button></a>
+                    <a href="index"><button>Home</button></a>
+                    <a href="about-us"><button>About</button></a>
+                    <a href="services"><button class="active">Services</button></a>
+                    <a href="contact"><button>Contact</button></a>
             </div>
             
         </div>
@@ -70,7 +70,7 @@
                     <strong>Ask about our custom cabinetry work</strong> – we can help create custom storage that is both spacious and elegant,
                     tailored to fit your home!
                     </p>
-                    <a href="contact.php"><button>If you can dream it, we can build it!</button></a>
+                    <a href="contact"><button>If you can dream it, we can build it!</button></a>
                 </div>
             </div>
         </div>

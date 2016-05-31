@@ -21,23 +21,22 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-            
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>                        
                 </button>
             
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="index">
                         <img src="img/logo-sm.png" alt="Tequa Builders Logo" class="img-responsive">
                     </a>
             </div>
             
             <div class="collapse navbar-collapse navbar-right" id="myNavbar">
-                    <a href="index.html"><button>Home</button></a>
-                    <a href="about.html"><button class="active">About</button></a>
-                    <a href="services.html"><button>Services</button></a>
-                    <a href="contact.php"><button>Contact</button></a>
+                    <a href="index"><button>Home</button></a>
+                    <a href="about-us"><button class="active">About</button></a>
+                    <a href="services"><button>Services</button></a>
+                    <a href="contact"><button>Contact</button></a>
             </div>
             
         </div>

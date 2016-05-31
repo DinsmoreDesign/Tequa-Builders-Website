@@ -26,16 +26,6 @@
     opacity: .9;
 }
 
-@media(min-width:768px) {
-    body {
-        padding-top: 85px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
-    }
-
-    .navbar-fixed-top .navbar-brand {
-        padding: 15px;
-    }
-}
-
 #myNavbar button {
     background: #FFF;
     color: #545454;
